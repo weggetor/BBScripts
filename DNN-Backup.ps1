@@ -2,7 +2,7 @@
 
 param(
 [string]$DBName = "mywebsite",
-[string]$DNNInstallPath = "c:\inetpub\wwwroot\mywebsite\dnn\",
+[string]$InstallPath = "c:\inetpub\wwwroot\mywebsite\dnn\",
 [string]$LogPath = "c:\inetpub\wwwroot\mywebsite\dnn\logs\",
 [string]$OutPutPath = "D:\Backup\",
 [string]$DBInstance = ".\SQLEXPRESS",
@@ -13,7 +13,7 @@ param(
 
 $DNNZipFile = $DBName + ".dnn.zip"
 $DNNZipName = $OutPutPath + $DNNZipFile
-$DNNZipPath = $DNNInstallPath + "\*"
+$DNNZipPath = $InstallPath + "\*"
 
 $LogZipFile = $DBName + ".log.zip"
 $LogZipName = $OutPutPath + $LogZipFile
