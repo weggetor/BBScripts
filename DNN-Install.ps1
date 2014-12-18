@@ -1,17 +1,17 @@
 param(
-[string]$InstallPath = "C:\Temp\Med4App\DNN\",
-[string]$WinAccount = "Netzwerkdienst",
-[string]$WebsiteName = "Med4app",
-[string]$WebsiteUrl = "med4app.local",
-[string]$DBName = "Med4App",
-[string]$DBInstance = ".\",
-[string]$DBUser = "Med4App",
-[string]$DBPassword = "test",
+[string]$InstallPath = "c:\inetpub\wwwroot\mywebsite\dnn\",
+[string]$WinAccount = "Network Service",
+[string]$WebsiteName = "mywebsite",
+[string]$WebsiteUrl = "www.mywebsite.com",
+[string]$DBName = "mywebsite",
+[string]$DBInstance = ".\SQLEXPRESS",
+[string]$DBUser = "testuser",
+[string]$DBPassword = "testpassword",
 [string]$DBQualifier = "",
-[string]$HostUser = "horst",
-[string]$HostPassword = "dnnhorst",
+[string]$HostUser = "host",
+[string]$HostPassword = "dnnhost",
 [string]$HostEmail = "host@change.me",
-[string]$InstallPackage = "z:\Master_D\Tools & Treiber\_Dotnetnuke\core7\DNN_Platform_07.03.04_Install.zip")
+[string]$InstallPackage = "D:\Install\DotNetNuke\DNN_Platform_07.03.04_Install.zip")
 
 ## Erlaubt die Ausführung von Skripten: Set-ExecutionPolicy RemoteSigned  
 ## Hier steht welches Powershell gestartet wird wenn ein Doppelklick auf eine .PS1 Datei gemacht wird:

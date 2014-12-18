@@ -1,10 +1,10 @@
 #Zunächst einmal (als Admin) -> Set-ExecutionPolicy RemoteSigned
 
 param(
-[string]$DBName = "0002_steilpass",
-[string]$DNNInstallPath = "d:\0002_steilpass\dnn",
-[string]$LogPath = "d:\0002_steilpass\logs\",
-[string]$OutPutPath = "D:\temp\backup\",
+[string]$DBName = "mywebsite",
+[string]$DNNInstallPath = "c:\inetpub\wwwroot\mywebsite\dnn\",
+[string]$LogPath = "c:\inetpub\wwwroot\mywebsite\dnn\logs\",
+[string]$OutPutPath = "D:\Backup\",
 [string]$DBInstance = ".\SQLEXPRESS",
 [string]$ExcludeWildcard = "",
 [switch]$IncludeLogs = $false,

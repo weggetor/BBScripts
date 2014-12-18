@@ -1,15 +1,15 @@
 #Zunächst einmal (als Admin) -> Set-ExecutionPolicy RemoteSigned
 
 param(
-[string]$InstallPath = "C:\Inetpub\wwwroot\0002_steilpass\dnn\",
-[string]$WinAccount = "Netzwerkdienst",
-[string]$WebsiteName = "0002_steilpass",
-[string]$WebSiteUrl = "stream.steilpass.de",
-[string]$DBName = "0002_steilpass",
-[string]$DBInstance = ".\",
-[string]$DBUser = "test",
-[string]$DBPassword = "test",
-[string]$InPutPath = "C:\Temp\Backup\")
+[string]$InstallPath = "c:\inetpub\wwwroot\mywebsite\dnn\",
+[string]$WinAccount = "Network Service",
+[string]$WebsiteName = "mywebsite",
+[string]$WebSiteUrl = "www.mywebsite.com",
+[string]$DBName = "mywebsite",
+[string]$DBInstance = ".\SQLEXPRESS",
+[string]$DBUser = "testuser",
+[string]$DBPassword = "testpassword",
+[string]$InPutPath = "D:\Backup\")
 
 cls
 write-host "#--------------------------------------------------" -ForegroundColor Magenta

@@ -1,7 +1,7 @@
 param(
-[string]$InstallPath = "c:\inetpub\wwwroot\0002_steilpass\dnn\",
-[string]$WebsiteUrl = "stream.steilpass.de",
-[string]$UpgradePackage = "z:\Master_D\Tools & Treiber\_Dotnetnuke\core7\DNN_Platform_07.03.04_Upgrade.zip")
+[string]$InstallPath = "c:\inetpub\wwwroot\mywebsite\dnn\",
+[string]$WebsiteUrl = "www.mywebsite.com",
+[string]$UpgradePackage = "D:\Install\DotNetNuke\DNN_Platform_07.03.04_Upgrade.zip")
 
 ## Erlaubt die Ausführung von Skripten: Set-ExecutionPolicy RemoteSigned  
 ## Hier steht welches Powershell gestartet wird wenn ein Doppelklick auf eine .PS1 Datei gemacht wird:
